@@ -121,7 +121,7 @@ def num_points_scored (players_name)
     team.each do |attribute, data|
       if attribute == :players
         data.each do |player|
-          if player == player_with_longest_name
+          if player == players_name
             return points
           end
         end
