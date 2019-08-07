@@ -123,7 +123,9 @@ def num_points_scored (players_name)
         players.each do |player|
           if player == player_with_longest_name
             return points
-      
+          end
+        end
+      end
     end
   end
 end
