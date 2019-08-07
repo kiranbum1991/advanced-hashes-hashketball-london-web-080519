@@ -1,4 +1,5 @@
 # Write your code here!
+require "pry"
 def game_hash
   hash = {
   :home => {
@@ -114,3 +115,7 @@ def game_hash
     }
    }
 end
+
+def num_points_scored (players_name)
+  game_hash.each do |place, team|
+    
