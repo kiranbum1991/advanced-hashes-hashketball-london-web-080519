@@ -121,5 +121,5 @@ def num_points_scored (players_name)
     binding.pry
     team.each do ||
     end
-  end 
+  end
 end
