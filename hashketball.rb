@@ -120,7 +120,7 @@ def num_points_scored (players_name)
   game_hash.each do |place, team|
     team.each do |attribute, data|
       if attribute == :players
-        players.each do |player|
+        data.each do |player|
           if player == player_with_longest_name
             return points
           end
